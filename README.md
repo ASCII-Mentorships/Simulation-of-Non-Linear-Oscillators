@@ -1,5 +1,4 @@
-# Simulation-of-Non-Linear-Oscillators
-This is part of the ASCII mentorship program for the year 2022-23
+
 
 <div id="top"></div>
 <!--
@@ -20,12 +19,7 @@ This is part of the ASCII mentorship program for the year 2022-23
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+
 
 
 
@@ -39,7 +33,7 @@ This is part of the ASCII mentorship program for the year 2022-23
 <h3 align="center">Simulation of nonlinear oscillators</h3>
 
   <p align="center">
-    project_description
+    This project is a part of the ASCII mentorship program for the year 2022-23
     <br />
     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
