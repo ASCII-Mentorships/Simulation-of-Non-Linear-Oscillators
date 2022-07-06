@@ -36,7 +36,7 @@ This is part of the ASCII mentorship program for the year 2022-23
     <img src="images/logo.gif" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Simulation of nonlinear oscillators</h3>
 
   <p align="center">
     project_description
