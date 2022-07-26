@@ -80,26 +80,25 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 
 
-### Built With
-
-* [![Matlab][Matlab.mx]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
 <!-- GETTING STARTED -->
-## Getting Started
+## Introduction
+<q> In 1665, Christiaan Huygens observed that two pendulum clocks suspended on a beam always ended up swinging in exact anti-phase motion (1) regardless of each pendulum’s initial displacement. He explained this self-emergent synchronization as resulting from the coupling between the clocks, which was mediated by vibrations traveling across the beam. Huygens’ serendipitous discovery has inspired many studies to establish that self-emergent synchronization is a central process to a spectacular variety of natural systems, including the beating of the heart (2), flashing fireflies (3), pedestrians on a bridge locking their gait (4), circadian clocks in the brain (5), superconducting Josephson junctions (6), chemical oscillations (7, 8), metabolic oscillations in yeast cells (9), and life cycles of phytoplankton (10). </q>
+[You will find the cited resources at the end of this file]
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Nonlinear Oscillators are strikingly crucial in modelling most of the complex dynamic problems. To a large extent, first order approximations provides a decent linear model for these problems. But to really study the depths of synchronization and the various emergent states associated to it, nonlinear oscillators are inevitable to be tackled with. There is no analytical approach that fully solves these differential equations - although, many analytical approximations are extremely useful to get a qualitative feel to them. So, the numerical simulations of such systems are often the only way to study the evolution of nonlinear differential equations.  
+
+### Phases of the project
+#### Phase I:
+The simulation of a system of metronomes coupled by a swing. Specifically, this will be the simulation of the Van der Pol oscillator - one of the most important nonlinear oscillators. This will be a work to reproduce the simulations that I have previously worked with. You will be using in-built MATLAB libraries and ode solvers to simply get a feel of how numerical simulations in MATLAB works. The final simulation is already attached in this repo, although I would implore you to try to write the code on your own before you look at the solution.
+
+<img src="images/metronomes.gif" alt="synchronization">
+
+### Phase II:
+There are two equally important branch of contributions to be made to this project, depending on your domain of interest. You can either work further on the computational physics surrounding different models similar to the Van derPol model. Or you can work on analysing the Kuramoto system using analytical methods.
+<ul>
+  <li> If you are interested in the simulation aspect of this project, we will spend some time learning the basics of computational physics - the various numerical methods that these MATLAB functions use to integrate complex differential equations. After you have some idea of tracking and tackling divergent solutions, the main line of work is to simulate a significantly harder equation that more accurately models the metronome systems than the cookie cutter Van der Pol model. The biggest hurdle to simulate such an equation is the presence of non-differentiable functions that have kinks in the graph. You'll learn how such functions can lead to garbage simulation results if you're not careful enough.
+   <li> If you are looking to dive deeper into the physics of nonlinear oscillators, we will simulate the Kuramoto model which is a significantly easier set of differential equations to model as compared to the toy Van der Pol problem you have already worked on. Currently, I am working to find the various phase-locked states of Kuramoto models and study the critical connectivity required in a ring of oscillators to achieve global synchrony. There are many open problems in the field, and we will be working on developing analytical approaches to predict the evolution of the Kuramoto oscillators. For this, you might need to also spend some time learning the basics of Nonlinear Dynamics.
+ </ul> 
 
 ### Prerequisites
 
