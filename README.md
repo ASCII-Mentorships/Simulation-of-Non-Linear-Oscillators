@@ -46,13 +46,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#getting-started">Introduction</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
@@ -72,7 +66,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="images/movie_s2.gif" alt="synchronization">
+<img src="images/movie_s2.gif" alt="synchronization" align="center">
 
 Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 
@@ -91,13 +85,13 @@ Nonlinear Oscillators are strikingly crucial in modelling most of the complex dy
 #### Phase I:
 The simulation of a system of metronomes coupled by a swing. Specifically, this will be the simulation of the Van der Pol oscillator - one of the most important nonlinear oscillators. This will be a work to reproduce the simulations that I have previously worked with. You will be using in-built MATLAB libraries and ode solvers to simply get a feel of how numerical simulations in MATLAB works. The final simulation is already attached in this repo, although I would implore you to try to write the code on your own before you look at the solution.
 
-<img src="images/metronomes.gif" alt="synchronization">
+<img src="images/metronomes.gif" alt="synchronization" align="center">
 
-### Phase II:
-There are two equally important branch of contributions to be made to this project, depending on your domain of interest. You can either work further on the computational physics surrounding different models similar to the Van derPol model. Or you can work on analysing the Kuramoto system using analytical methods.
+#### Phase II:
+There are two equally important branch of contributions to be made to this project, depending on your domain of interest. You can either work further on the computational physics surrounding a different model that Prof. Gaurav Dar and Aniket Saha have been trying to simulate. Or you can work on analysing the Kuramoto system using analytical methods, which is currently what I am researching.
 <ul>
   <li> If you are interested in the simulation aspect of this project, we will spend some time learning the basics of computational physics - the various numerical methods that these MATLAB functions use to integrate complex differential equations. After you have some idea of tracking and tackling divergent solutions, the main line of work is to simulate a significantly harder equation that more accurately models the metronome systems than the cookie cutter Van der Pol model. The biggest hurdle to simulate such an equation is the presence of non-differentiable functions that have kinks in the graph. You'll learn how such functions can lead to garbage simulation results if you're not careful enough.
-   <li> If you are looking to dive deeper into the physics of nonlinear oscillators, we will simulate the Kuramoto model which is a significantly easier set of differential equations to model as compared to the toy Van der Pol problem you have already worked on. Currently, I am working to find the various phase-locked states of Kuramoto models and study the critical connectivity required in a ring of oscillators to achieve global synchrony. There are many open problems in the field, and we will be working on developing analytical approaches to predict the evolution of the Kuramoto oscillators. For this, you might need to also spend some time learning the basics of Nonlinear Dynamics.
+   <li> If you are looking to dive deeper into the physics of nonlinear oscillators, we will simulate the Kuramoto model which is a significantly easier set of differential equations to model as compared to the toy Van der Pol problem you have already worked on. Currently, I am working to find the various phase-locked states of Kuramoto models and study the critical connectivity required in a ring of oscillators to achieve global synchrony. There are many open problems in the field, and we will be mainly working on developing analytical approaches to predict the evolution of the Kuramoto oscillators. For this, you might need to also spend some time learning the basics of Nonlinear Dynamics.
  </ul> 
 
 ### Prerequisites
