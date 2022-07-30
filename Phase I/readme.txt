@@ -1,5 +1,3 @@
-Attached are various resources we will use in studying the behaviour of Van der Pol Oscillators. 
-The Supplementary material to Martens et al paper contains the core differential equations to simulate. 
-A basic understanding of linear oscillators and a Van der Pol oscillators wouldn't hurt you. 
+Attached are various resources we will use in studying the behaviour of Van der Pol Oscillators. The Supplementary material to Martens et al paper contains the core differential equations to simulate. A basic understanding of linear oscillators and a Van der Pol oscillators wouldn't hurt you. 
 
-The MATLAB code is horribly organized. Maybe that's for the best, I would cry if I had to decode and copy from it. But it works, so in the end we will have a backup to fall on if you're stuck somewhere.
+The MATLAB code is horribly organized. Maybe that's for the best, I would cry if I had to decode and copy from it. But it works, so in the end we will have a backup to fall on if you're stuck somewhere. There's also a lot of functions and loops that were coded for different purposes that are obsolete now but I was too lazy to remove any of them back then. The animated plot was done in a separate Python code to move on faster with the actual research but if you want to learn how to animate in MATLAB go for it, it's pretty interesting since you wouldn't find fully in-built libraries for it in MATLAB.
