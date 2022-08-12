@@ -99,7 +99,6 @@ There are two equally important branch of contributions to be made to this proje
 </ul>
 
 
-
 <!-- CONTRIBUTING -->
 ## Contributing
 
@@ -120,7 +119,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 Yashee Sinha - (WA: 9971559110) - f20190652@goa.bits-pilani.ac.in / yasheesinha@gmail.com
 
-Project Link: [https://github.com/Bluish-y/Simulation-of-Non-Linear-Oscillators](https://github.com/Bluish-y/Simulation-of-Non-Linear-Oscillators)
+Project Link: [https://github.com/ASCII-Mentorships/Simulation-of-Non-Linear-Oscillators](https://github.com/ASCII-Mentorships/Simulation-of-Non-Linear-Oscillators)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
