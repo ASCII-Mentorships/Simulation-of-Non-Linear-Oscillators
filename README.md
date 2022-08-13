@@ -35,7 +35,7 @@
   <p align="center">
     This project is a part of the ASCII mentorship program for the year 2022-23
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a> 
+    <a href="https://github.com/ASCII-Mentorships/Simulation-of-Non-Linear-Oscillators"><strong>Explore the docs »</strong></a> 
   </p>
 </div>
 
